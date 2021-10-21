@@ -1,0 +1,5 @@
+---
+
+- name: Stop PostgreSQL container with Podman
+  shell: "podman restart qpc-db"
+  become: true
